@@ -1,4 +1,4 @@
-FROM microsoft/vsts-agent
+FROM azure-pipelines/vsts-agent
 
 ENV DOCKER_VERSION="18.03.1-ce"
 
