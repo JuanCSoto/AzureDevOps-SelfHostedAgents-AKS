@@ -1,4 +1,4 @@
-FROM azure-pipelines/vsts-agent
+FROM FROM ubuntu:18.04
 
 ENV DOCKER_VERSION="18.03.1-ce"
 
