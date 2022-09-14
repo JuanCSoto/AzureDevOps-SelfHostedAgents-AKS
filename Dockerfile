@@ -1,4 +1,5 @@
-FROM ubuntu:20.04
+FROM azure-pipelines/vsts-agent
+
 RUN DEBIAN_FRONTEND=noninteractive apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get upgrade -y
 
