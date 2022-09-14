@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM microsoft/vsts-agent
 
 ENV DOCKER_VERSION="18.03.1-ce"
 
